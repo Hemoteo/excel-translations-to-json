@@ -1,0 +1,4 @@
+vendor/
+src/*.json
+src/*.xls
+src/*.xlsx

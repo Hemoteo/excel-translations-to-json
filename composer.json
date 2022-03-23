@@ -1,0 +1,17 @@
+{
+    "name": "arequena/excel-to-json",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arequena\\ExcelToJson\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Álvaro Requena",
+            "email": "arequena@quenta.com"
+        }
+    ]
+}
