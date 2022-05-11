@@ -40,7 +40,7 @@ for ($row = 1; $row <= $highestRow; $row++) {
 			continue;
 		}
 
-		if (!$key) continue;
+		if (!$key || !isset($languages[$i])) continue;
 
 		$array[$languages[$i]][$key] = $value;
 	} // for ($column)
