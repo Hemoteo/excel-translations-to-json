@@ -21,7 +21,7 @@ $highestRow = $worksheet->getHighestRow();
 for ($row = 1; $row <= $highestRow; $row++) {
 	$key = null;
 
-	for ($column = 'A', $i = -1; $column != $highestColumn; $column++, $i++) {
+	for ($column = 'A', $i = -1; ord($column) <= ord($highestColumn); $column++, $i++) {
 		$cell = $worksheet->getCell($column.$row);
 		$value = trim($cell->getValue());
 
